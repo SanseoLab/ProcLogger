@@ -1,6 +1,5 @@
 #include "RegMonitor.h""
 
-#define REG_TAG 'Reg1'
 
 typedef struct _GLOBAL_CONTEXT {
 	PDRIVER_OBJECT DriverObject;
