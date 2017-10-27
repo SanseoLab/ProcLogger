@@ -21,8 +21,7 @@ UNICODE_STRING g_PolicyKeyArray[] = {
 ULONG g_PolicyKeyCount = sizeof(g_PolicyKeyArray) / sizeof(UNICODE_STRING);
 
 
-BOOLEAN
-CheckProcess(VOID) {
+BOOLEAN CheckProcess(VOID) {
 	PEPROCESS  Process;
 	PCHAR ImageFileName;
 
